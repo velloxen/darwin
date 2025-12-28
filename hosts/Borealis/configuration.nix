@@ -33,6 +33,7 @@
             "element"
             "firefox"
             "google-chrome"
+            # "inkscape" # NOTE: see https://github.com/flameshot-org/flameshot/issues/4125 about Gatekeeper
             "librewolf"
             "obsidian"
             # TODO: "olympus"
