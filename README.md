@@ -40,6 +40,8 @@ links the `/run/current-system/sw/...` file structure (the `...`) to
 `/Users/$USER/Applications/Home\ Manager\ Apps` (which are actually directly
 linked to the original files in the nix store).
 
+NOTE: Stylix doesn't style Homebrew apps :(
+
 ## TODO
 
 - make the update thing more in line with nix

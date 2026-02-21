@@ -8,14 +8,19 @@
         darwin.inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    outputs = inputs@{ self, darwin, nixpkgs, home-manager, ... }: {
+    outputs = {
+        self,
+        nixpkgs,
+        darwin,
+        ...
+    } @ inputs: {
         # Build darwin flake using:
         # $ darwin-rebuild build --flake .#Borealis
         darwinConfigurations."Borealis" = darwin.lib.darwinSystem {
             system = "aarch64-darwin";
-            pkgs = import nixpkgs { 
+            pkgs = import nixpkgs {
                 system = "aarch64-darwin";
-                config.allowUnfree = true; 
+                config.allowUnfree = true;
             };
             modules = [
                 ./hosts/Borealis/configuration.nix

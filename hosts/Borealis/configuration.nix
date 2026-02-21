@@ -32,9 +32,10 @@
             "discord"
             "element"
             "firefox"
+            #"gimp"
             "google-chrome"
-            # "inkscape" # NOTE: see https://github.com/flameshot-org/flameshot/issues/4125 about Gatekeeper
-            "librewolf"
+            "inkscape" # NOTE: see https://github.com/flameshot-org/flameshot/issues/4125 about Gatekeeper
+            #"librewolf"
             "obsidian"
             # TODO: "olympus"
             # TODO: "qbittorrent"
