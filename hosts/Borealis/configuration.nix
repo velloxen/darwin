@@ -32,30 +32,30 @@
     # caskArgs.no_quarantine = true;
 
     casks = [
-      "1password"
-      "anki"
-      "discord"
-      "element"
-      "firefox"
-      #"gimp"
-      "google-chrome"
+      "1password" # password manager
+      "anki" # studying
+      "discord" # messaging
+      "element" # messaging
+      "firefox" # browsers
+      #"gimp" # image editting
+      "google-chrome" # browsers, sometimes needed
       "inkscape" # NOTE: see https://github.com/flameshot-org/flameshot/issues/4125 about Gatekeeper
-      #"librewolf"
-      "obsidian"
-      # TODO: "olympus"
-      # TODO: "qbittorrent"
-      "signal"
-      "skim"
-      "spotify"
-      "steam"
-      "tor-browser"
-      "vlc"
-      # TODO: "WEPA-PrintApp"
-      "zoom" # TODO: isolate
-      "zotero"
+      #"librewolf" # browsers
+      "obsidian" # notes, unused
+      # TODO: "olympus" # gaming
+      # TODO: "qbittorrent" # media
+      "signal" # messaging
+      "skim" # VimTex viewer
+      "spotify" # music
+      "steam" # gaming
+      "tor-browser" # browsers
+      "vlc" # media
+      # TODO: "WEPA-PrintApp" # School printing
+      "zoom" # meetings/school # TODO: isolate
+      "zotero" # bibliography management, research
 
-      "minecraft"
-      "curseforge"
+      "minecraft" # gaming
+      "curseforge" # gameing, minecraft
     ];
 
     masApps = {
