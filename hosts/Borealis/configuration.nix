@@ -21,6 +21,7 @@
 
     homebrew = {
         enable = true;
+        enableZshIntegration = true;
         onActivation.autoUpdate = true;
         onActivation.cleanup = "zap";
         # onActivation.upgrade = true;
@@ -47,6 +48,9 @@
             # TODO: "WEPA-PrintApp"
             "zoom" # TODO: isolate
             "zotero"
+
+            "minecraft"
+            "curseforge"
         ];
 
         masApps = {
