@@ -37,10 +37,11 @@
       "discord" # messaging
       "element" # messaging
       "firefox" # browsers
-      #"gimp" # image editting
+      "gimp" # image editting
       "google-chrome" # browsers, sometimes needed
       "inkscape" # NOTE: see https://github.com/flameshot-org/flameshot/issues/4125 about Gatekeeper
       #"librewolf" # browsers
+      "motrix" # download manager
       "obsidian" # notes, unused
       # TODO: "olympus" # gaming
       # TODO: "qbittorrent" # media
@@ -61,6 +62,7 @@
     masApps = {
       "Brother iPrint&Scan" = 1193539993;
       "Notability: Smarter AI Notes" = 360593530;
+      "Pages: Create Documents" = 361309726;
       Xcode = 497799835;
     };
   };
