@@ -55,8 +55,8 @@
       "zoom" # meetings/school # TODO: isolate
       "zotero" # bibliography management, research
 
-      "minecraft" # gaming
-      "curseforge" # gameing, minecraft
+      # "minecraft" # gaming
+      # "curseforge" # gameing, minecraft
     ];
 
     masApps = {
