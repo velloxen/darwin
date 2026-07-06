@@ -2,13 +2,9 @@
   description = "Borealis nix-darwin system flake";
 
   inputs = {
-    nixpkgs = {
-      owner = "NixOS";
-      repo = "nixpkgs";
-      #ref = "nixpkgs-unstable";
-      rev = "cbb5cf358f50aa6acc9efd6113b7bcfbc352cd73";
-      type = "github";
-    };
+    # NOTE: This nixpkgs commit (https://github.com/NixOS/nixpkgs/commit/ad97f5573d6621d4861bfdcfbd433ca08e86a188) made a breaking change, this nix-darwin issue (https://github.com/nix-darwin/nix-darwin/issues/1817) is resolving it. This nix-darwin PR (https://github.com/nix-darwin/nix-darwin/pull/1818) is the fix.
+    # The easy solution is to just wait a day or two.
+    nixpkgs.url = "github:NixOS/nixpkgs/97ed749796d9e3fbba376a1b3488193657ab356b";
     #.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
 
     #darwin.url = "github:nix-darwin/nix-darwin/master";
