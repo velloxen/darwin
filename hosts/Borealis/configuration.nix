@@ -41,8 +41,10 @@
       "gimp" # image editting
       "google-chrome" # browsers, sometimes needed
       "inkscape" # NOTE: see https://github.com/flameshot-org/flameshot/issues/4125 about Gatekeeper
+      # "libreoffice"
       #"librewolf" # browsers
       "motrix" # download manager
+      "pdfsam-basic" # PDF page-level manipulation
       "obsidian" # notes, unused
       # TODO: "olympus" # gaming
       "praat" # phonetics
