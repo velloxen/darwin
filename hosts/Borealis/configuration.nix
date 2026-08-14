@@ -2,6 +2,7 @@
 {
   users.users.ben.home = "/Users/ben";
   system.primaryUser = "ben";
+  nix.settings.auto-optimise-store = true;
 
   environment = {
     shells = with pkgs; [
@@ -44,6 +45,7 @@
       "motrix" # download manager
       "obsidian" # notes, unused
       # TODO: "olympus" # gaming
+      "praat" # phonetics
       # TODO: "qbittorrent" # media
       "signal" # messaging
       "skim" # VimTex viewer
